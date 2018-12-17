@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "307205098531",
+    "firebase_url": "https://fir-app-65a24.firebaseio.com",
+    "project_id": "fir-app-65a24",
+    "storage_bucket": "fir-app-65a24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307205098531:android:eddc01c409c73354",
+        "android_client_info": {
+          "package_name": "com.example.abdelrahim.abdochat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307205098531-he96sopunj6kkrigkp0f53bed4mu05k1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abdelrahim.abdochat",
+            "certificate_hash": "90da90014c839bf3b70c1144846edae1c648526b"
+          }
+        },
+        {
+          "client_id": "307205098531-mhevn0do1hsbboq4gvaaloi1ml089lgc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDChPxeNa92cejZopvRCPYXa_UWGPoRA_U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "307205098531-mhevn0do1hsbboq4gvaaloi1ml089lgc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

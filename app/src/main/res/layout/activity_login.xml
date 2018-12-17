@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/m_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abdelrahim.abdochat.MainActivity">
+    <include layout="@layout/abb_bar_layout" android:id="@+id/main_page_toolbar"></include>
+
+    <ImageView
+        android:id="@+id/Login_icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/google" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/ligin_input_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Login_icon"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="15dp"
+        android:layout_centerInParent="true"
+        >
+
+        <EditText
+            android:id="@+id/login_et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/login_input_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ligin_input_email"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="15dp"
+        android:layout_centerInParent="true"
+        >
+
+        <EditText
+            android:id="@+id/login_et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/login_btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_input_password"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="20dp"
+        android:text="Login"
+        android:textColor="#ffffff"
+        android:backgroundTint="#1DA1F2"
+        android:textAllCaps="false"
+        android:layout_centerInParent="true"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/login_tv_forget_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_btn_login"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="Forget Password ?"
+        android:textColor="#517ed9"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/login_tv_OR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_tv_forget_password"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="OR"
+        android:textStyle="bold"
+
+        />
+
+    <Button
+        android:id="@+id/login_btn_signUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_tv_OR"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:text="Create New Account"
+        android:backgroundTint=" #1DA1F2"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        />
+
+
+</RelativeLayout>
